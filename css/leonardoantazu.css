@@ -3,14 +3,8 @@
     padding: 0;
 }
 body{
-    background-image: url("/Imagen/Josue.jpg");
-    margin: 0 auto;
-    max-width: 100%;
-    max-height: 100%;
-    
-   background-repeat: no-repeat;
+    background-image: url(/Imagen/leonardoantazu.png);
 }
-
 h1{
     float: left;
     padding: 35px; 
@@ -23,14 +17,12 @@ header, nav, section, footer{
     margin: 0 auto;
 }
 header{
-    
     height: 300px;
     background-color: rgb(255, 0, 0);
-    background-image: url("/Imagen/Porsche\ Manhart\ TR_xtrafondos.com.jpg");
+    background-image: url(/Imagen/carro.jpg);
 }
 nav{
-    max-height: 100%;
-    max-width: 100%;
+    height: 100px;
     background-color: rgb(66, 5, 5);
     text-align: right;
 }
