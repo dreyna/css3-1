@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(/imagenes/carro.jpg);
+    background-image: url("/imagen/danielrojas.jpg");
     background-repeat: no-repeat;
 }
 h1{
@@ -20,7 +20,7 @@ header, nav, section, footer{
 header{
     height: 300px;
     background-color: rgb(255, 0, 0);
-    background-image: url("/imagenes/banner.jpg");
+    background-image: url("/imagen/banner.jpg");
 }
 nav{
     height: 100px;
@@ -64,5 +64,4 @@ article{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
