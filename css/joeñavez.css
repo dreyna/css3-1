@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/imagen/joeñavez.jpg");
+    margin: 0 auto;
+    width: 1912px;
+    height: 878px;
+    background-repeat: no-repeat;
+}
+header, nav, section, footer{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    height: 400px;
+    background-image: url("/imagen/joeñavezbanner.jpeg");
+}
+
+section{
+    height: 300px;
+    background-color: seashell;
+}
+footer{
+    height: 100px;
+    background-color: skyblue;
+}
+nav{
+    height: 100px;
+    background-color: skyblue;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+    float: left;
+     margin-top: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    font-family: 'Lobster', cursive;
+}
+nav li a:hover{
+    color: green;
+}
+article{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+
+}
+h1{
+    float: left;
+    padding: 35px; 
+    font-size: 40px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+.box{
+    display: flex;
+    flex-wrap: 100px;
+    flex-flow: row wrap;
+}
